@@ -11,9 +11,9 @@ import com.qualcomm.robotcore.eventloop.opmode.TeleOp
 import org.firstinspires.ftc.teamcode.RobotContainer
 
 @TeleOp(name = "Blue Main Teleop", group = "Teleop")
-class BlueMainTeleop : CommandOpMode() {
+class BlueTestingTeleop : CommandOpMode() {
 
-	val telemetryLevel = TelemetryLevel.Competition
+	val telemetryLevel = TelemetryLevel.Testing
 	val alliance = Alliance.Blue
 
 	override fun initialize() {

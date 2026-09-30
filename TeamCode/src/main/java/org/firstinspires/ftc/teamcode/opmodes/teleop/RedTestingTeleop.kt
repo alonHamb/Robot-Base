@@ -10,11 +10,11 @@ import com.qualcomm.hardware.lynx.LynxModule
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp
 import org.firstinspires.ftc.teamcode.RobotContainer
 
-@TeleOp(name = "Blue Main Teleop", group = "Teleop")
-class BlueMainTeleop : CommandOpMode() {
+@TeleOp(name = "Red Main Teleop", group = "Teleop")
+class RedTestingTeleop : CommandOpMode() {
 
-	val telemetryLevel = TelemetryLevel.Competition
-	val alliance = Alliance.Blue
+	val telemetryLevel = TelemetryLevel.Testing
+	val alliance = Alliance.Red
 
 	override fun initialize() {
 		hardwareMap.get(LynxModule::class.java, "Control Hub").apply {

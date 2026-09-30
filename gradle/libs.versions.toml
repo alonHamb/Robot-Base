@@ -1,13 +1,13 @@
 [versions]
-agp = "9.1.1"
-alonlib = "1.0.5"
+agp = "9.4.1"
+alonlib = "1.0.7"
 kotlin = "2.4.20"
 ftc-sdk = "12.0.0"
 dashboard = "0.5.1"
 roadrunner-core = "1.0.1"
 roadrunner-ftc = "0.1.25"
 appcompat = "1.8.0"
-core-ktx = "1.19.0"
+core-ktx = "1.19.1"
 
 # SDK Versions
 compileSdk = "37"
